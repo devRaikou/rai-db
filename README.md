@@ -14,7 +14,7 @@ Simple and efficient JSON database library for Node.js applications. A lightweig
 ## Installation
 
 ```bash
-npm install rai-db
+npm install raikoudb
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install rai-db
 ### TypeScript
 
 ```typescript
-import RaiDB from 'rai-db';
+import RaiDB from 'raikoudb';
 
 // Create database
 const db = new RaiDB('database.json', {
@@ -63,7 +63,7 @@ await db.save();
 #### ES Modules
 
 ```javascript
-import RaiDB from 'rai-db';
+import RaiDB from 'raikoudb';
 
 // Create database
 const db = new RaiDB('database.json', {
@@ -102,7 +102,7 @@ await db.save();
 #### CommonJS
 
 ```javascript
-const RaiDB = require('rai-db');
+const RaiDB = require('raikoudb');
 
 // Create database
 const db = new RaiDB('database.json', {
@@ -187,7 +187,7 @@ Basit ve verimli bir JSON veritabanı kütüphanesi. Node.js uygulamalarınız i
 ## Kurulum
 
 ```bash
-npm install rai-db
+npm install raikoudb
 ```
 
 ## Kullanım
@@ -195,7 +195,7 @@ npm install rai-db
 ### TypeScript
 
 ```typescript
-import RaiDB from 'rai-db';
+import RaiDB from 'raikoudb';
 
 // Veritabanı oluşturma
 const db = new RaiDB('database.json', {
@@ -236,7 +236,7 @@ await db.save();
 #### ES Modules
 
 ```javascript
-import RaiDB from 'rai-db';
+import RaiDB from 'raikoudb';
 
 // Veritabanı oluşturma
 const db = new RaiDB('database.json', {
@@ -275,7 +275,7 @@ await db.save();
 #### CommonJS
 
 ```javascript
-const RaiDB = require('rai-db');
+const RaiDB = require('raikoudb');
 
 // Veritabanı oluşturma
 const db = new RaiDB('database.json', {
